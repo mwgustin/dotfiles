@@ -11,13 +11,13 @@ alias dnt="dotnet test"
 
 
 #exa
-if [ "$(command -v exa)" ]; then
+if [ "$(command -v eza)" ]; then
     unalias -m 'll'
     unalias -m 'l'
     unalias -m 'la'
     unalias -m 'ls'
     alias ls='eza -G --color auto --icons -a -s type'
-    alias ll='eza -l --color always --icons -a -s type'
+    alias ll='eZa -l --color always --icons -a -s type'
 fi
 
 #bat
