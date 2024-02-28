@@ -34,7 +34,6 @@ PACKAGES=(
     ripgrep
     neovim
     node
-    nvm
     sops
     stow
     tree-sitter
