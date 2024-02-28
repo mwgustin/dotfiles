@@ -1,8 +1,7 @@
-alias python="python3"
-alias pip="pip3"
-
+# history grep
 alias hg="history | grep -i"
 
+# dotnet alias
 alias dnb="dotnet build"
 alias dnr="dotnet run"
 alias dns="dotnet restore"
@@ -10,21 +9,19 @@ alias dnsi="dotnet restore --interactive"
 alias dnt="dotnet test"
 
 
-#exa
-if [ "$(command -v eza)" ]; then
-    unalias -m 'll'
-    unalias -m 'l'
-    unalias -m 'la'
-    unalias -m 'ls'
-    alias ls='eza -G --color auto --icons -a -s type'
-    alias ll='eZa -l --color always --icons -a -s type'
-fi
+# git alias
+alias gaa="git add -A"
+alias gcm="git commit -m"
+alias gp="git push"
+alias gs="git status"
+alias gcam="git commit -a -m"
+alias gca="git commit -a"
+
 
 #bat
 if [ "$(command -v bat)" ]; then
     unalias -m '`cat'
     alias cat='bat -pp --theme="Nord"'
 fi
-
 
 

@@ -23,7 +23,6 @@ brew tap ${TAPS[@]}
 PACKAGES=(
     homebrew/cask-fonts/font-fira-code
     bat
-    eza
     gh
     fluxcd/tap/flux
     argocd
