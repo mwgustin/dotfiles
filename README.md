@@ -12,3 +12,8 @@ Managed with gnu stow.
     - dotnet_init.sh - ensures a number of specific dotnet global tools are installed
 
 
+Setup home with 
+
+```bash
+stow .
+```
