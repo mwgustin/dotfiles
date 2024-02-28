@@ -118,8 +118,8 @@ for f in ~/.shell_config/*; do source $f; done
 #     for f in ./.work_config/*; do source $f; done
 # fi
 
-if [ -d ".work_config/" ]; then
-    for f in ./.work_config/*; do source $f; done
+if [ -d "~/.work_config/" ]; then
+    for f in ~/.work_config/*; do source $f; done
 fi
 
 
