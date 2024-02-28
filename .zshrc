@@ -111,7 +111,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 #modular configs
-for f in ./.shell_config/*; do source $f; done
+for f in ~/.shell_config/*; do source $f; done
 
 #work customizaitons/specifics
 # if test -d ./.work_config/*; then
