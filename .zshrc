@@ -114,11 +114,7 @@ source $ZSH/oh-my-zsh.sh
 for f in ~/.shell_config/*; do source $f; done
 
 #work customizaitons/specifics
-# if test -d ./.work_config/*; then
-#     for f in ./.work_config/*; do source $f; done
-# fi
-
-if [ -d "~/.work_config/" ]; then
+if test -d ~/.work_config/; then
     for f in ~/.work_config/*; do source $f; done
 fi
 
